@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div >
-     hello world 
+    <div className = 'center'>
+     <p>only 5% of the world's population can match the cards</p>
+     <p>show us how smart you are !</p>
+     <button>Start flipping</button>
     </div>
   )
 }
