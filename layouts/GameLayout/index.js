@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./game.module.css";
+import SingleCard from "../../components/SingleCard";
 function GameLayout() {
   const cardIcons = [
     { src: "../../money.png" },
@@ -22,16 +23,13 @@ function GameLayout() {
   console.log(cards);
 
   return (
-    <div>
-      <div onClick={shuffleCards}>timer component</div>
+    <div className={styles.game}>
+      <div className={styles.timer} onClick={shuffleCards}>
+        timer component
+      </div>
       <div className={styles.cardsgrid}>
         {cards.map((card) => (
-          <div className={styles.card} key={card.id}>
-            <div>
-              <img className={styles.front} src={card.src} alt="card front" />
-              <div className={styles.back}></div>
-            </div>
-          </div>
+          <SingleCard key={card.id} card={card} />
         ))}
       </div>
     </div>
