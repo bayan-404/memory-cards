@@ -5,11 +5,11 @@ export default function Home() {
     <div className="center">
       <p>only 5% of the world's population can match the cards</p>
       <p>show us how smart you are !</p>
-      <div className="button">
+      <button className="button">
         <Link href="/game">
           <a className="start"> Start flipping </a>
         </Link>
-      </div>
+      </button>
     </div>
   );
 }

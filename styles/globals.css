@@ -17,6 +17,7 @@ body {
   border-radius: 4px;
   padding: 13px;
   margin: 1em;
+  border: none;
 }
 .start {
   text-decoration: none;
