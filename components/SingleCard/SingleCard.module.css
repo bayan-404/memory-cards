@@ -1,0 +1,13 @@
+.back {
+  height: 5em;
+  width: 5em;
+  background-color: #83e1f5;
+  border-radius: 20%;
+}
+.front {
+  height: 5em;
+  width: 5em;
+  background-color: #83e1f5;
+  border-radius: 20%;
+  padding: 13px;
+}
