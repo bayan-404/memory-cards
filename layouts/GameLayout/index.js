@@ -20,8 +20,6 @@ function GameLayout() {
     setCards(gameCards);
   };
 
-  console.log(cards);
-
   return (
     <div className={styles.game}>
       <div className={styles.timer} onClick={shuffleCards}>
@@ -37,6 +35,3 @@ function GameLayout() {
 }
 
 export default GameLayout;
-// create the page
-// timer start counting down
-// shows the pictures for 5 sec
